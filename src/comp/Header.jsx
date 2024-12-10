@@ -11,7 +11,7 @@ import { MdLibraryBooks } from "react-icons/md"
 import { MdCollectionsBookmark } from "react-icons/md"
 import { GiArtificialHive } from "react-icons/gi"
 import { IoIosSettings } from "react-icons/io"
-
+import { TbBooks } from "react-icons/tb";
 import { authKey } from "../firebase/FirebaseKey"
 import { signOut } from "firebase/auth"
 import { CiLogin } from "react-icons/ci"
@@ -77,7 +77,7 @@ const Header = ({ inputSee, bookSee, locString }) => {
           className={`font-bold text-1xl ${bookSee && "hidden"} ${inputSee &&
             "hidden"}  flex items-center gap-1 cursor-pointer md:flex`}
         >
-          <FaSwatchbook />
+          <TbBooks />
           Brainery
         </div>
         {inputSee && (

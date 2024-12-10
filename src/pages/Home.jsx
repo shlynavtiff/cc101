@@ -190,7 +190,7 @@ const Home = () => {
                     </div>
                     <div className="text-center w-[70%] mx-auto font-medium text-lg text-gray-300 mt-2">
                         Enhance your research experience with powerful tools for finding,
-                        organizing, and managing academic materials. Start using ThesisTribe
+                        organizing, and managing academic materials. Start using Brainery
                         today to streamline your research process and improve your
                         productivity.
                     </div>
